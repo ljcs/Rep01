@@ -1,4 +1,3 @@
-
 var studentsTemplate ='<script id="students-template" type="text/x-handlebars-template"><table><thead><th>Name</th><th>UvANumber</th><th>Email</th><th>AcademicBackground</th><th>OS</th></thead><tbody>{{#students}}<tr><td>{{Name}}</td><td>{{UvANuber}}</td><td>{{Email}}</td><td>{{AcademicBackground}}</td><td>{{OS}}</td></tr>{{/students}}</tbody></table></script>';
 $(".info").append(studentsTemplate);
 
